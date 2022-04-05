@@ -1,18 +1,14 @@
 import { Avatar, Button, Card, Col, Image, Rate, Row } from 'antd';
-import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
 import './Home.css';
 
 
 const imageUrl = 'https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg';
 const Home = () => {
     const navigate = useNavigate();
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch('review.json')
-            .then(res => res.json())
-            .then(data => setReviews(data));
-    }, []);
+    const [reviews, setReviews] = useReviews([]);
+
     return (
         <Row>
             <Col sm={{ 'span': 24, }} md={{ 'span': 12 }}>
@@ -25,8 +21,10 @@ const Home = () => {
                     <Button type='primary'>Live Demo</Button>
                 </div>
             </Col>
-            <h1 className='customer-review'>Customer Review</h1>
-            <Col span={24} style={{ marginBottom: '1rem' }} />
+            <Col span={24}>
+                <h1 style={{ textAlign: 'center', marginTop: '1rem' }}>Customer Review</h1>
+            </Col>
+            {/* <Col span={24} style={{ marginBottom: '1rem' }} /> */}
             {
                 reviews.length > 0 ? reviews.slice(0, 3).map(review =>
                     <Col sm={{ span: 24 }} md={{ span: 8 }} key={review.id}>
@@ -40,7 +38,9 @@ const Home = () => {
                         </Card>
                     </Col>) : <></>
             }
-            <Button type='primary'>For All Review</Button>
+            <Col span={24}>
+                <center><Button onClick={() => navigate('/reviews')} type='primary'>See All Reviews</Button></center>
+            </Col>
         </Row>
     );
 };

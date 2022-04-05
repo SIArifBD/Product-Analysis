@@ -15,9 +15,7 @@ const BaseRouter = () => {
         <Route exact path='/reviews' element={<Review />} />
         <Route exact path='/dashboard' element={<Dashboard />} />
         <Route exact path='/blogs' element={<Blogs />} />
-        <Route exact path='/about-us' element={<About />} />
-
-        {/* <Route exact path='/about-us/:slug' component={AboutSpecific}/> */}
+        <Route exact path='/*' element={<About />} />
     </Routes>
 }
 
