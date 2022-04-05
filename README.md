@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+# Project Name
 Project Name: Product Review Website
+
+## Live Website link
 Live Website Link: 
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
