@@ -8,6 +8,7 @@ import Review from './components/Review/Review';
 import Dashboard from './components/Dashboard/Dashboard';
 import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
+import FourZeroFour from './components/ForZeroFour/FourZeroFour';
 
 const BaseRouter = () => {
     return <Routes>
@@ -15,7 +16,8 @@ const BaseRouter = () => {
         <Route exact path='/reviews' element={<Review />} />
         <Route exact path='/dashboard' element={<Dashboard />} />
         <Route exact path='/blogs' element={<Blogs />} />
-        <Route exact path='/*' element={<About />} />
+        <Route exact path='/about' element={<About />} />
+        <Route exact path='/*' element={<FourZeroFour />} />
     </Routes>
 }
 
