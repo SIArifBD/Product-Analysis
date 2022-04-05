@@ -17,8 +17,8 @@ const SiteLayout = (props) => {
             navigate('/dashboard')
         } else if (key === 'blogs') {
             navigate('/blogs')
-        } else if (key === 'about_us') {
-            navigate('/about-us')
+        } else if (key === 'about') {
+            navigate('/about')
         }
     }
     return (
@@ -29,7 +29,7 @@ const SiteLayout = (props) => {
                     <Menu.Item key={'reviews'}>Reviews</Menu.Item>
                     <Menu.Item key={'dashboard'}>Dashboard</Menu.Item>
                     <Menu.Item key={'blogs'}>Blogs</Menu.Item>
-                    <Menu.Item key={'about_us'}>About Us</Menu.Item>
+                    <Menu.Item key={'about'}>About Us</Menu.Item>
                 </Menu>
             </Header>
             <Content style={{ padding: '0 50px' }}>
