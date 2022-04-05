@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+# Project Name
+Project Name: Product Review Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+## Live Website link
+Live Website Link: 
 
 ### `npm start`
 
