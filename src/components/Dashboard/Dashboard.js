@@ -38,12 +38,6 @@ const data = [
         "sell": 670,
         "revenue": 61000
     },
-    // {
-    //     name: 'Page G',
-    //     uv: 3490,
-    //     pv: 4300,
-    //     amt: 2100,
-    // },
 ];
 
 const data2 = [
