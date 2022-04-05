@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "comment": "These are great but not much better then gen1. Only addition is Siri feature. I will rather buy the previous model on discount and Save some green",
+        "img": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+        "id": 2,
+        "name": "Mike",
+        "comment": "These are great but not much better then gen1. Only addition is Siri feature. I will rather buy the previous model on discount and Save some green.",
+        "img": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+        "id": 3,
+        "name": "Marko",
+        "comment": "These are great but not much better then gen1. Only addition is Siri feature. I will rather buy the previous model on discount and Save some green.",
+        "img": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+        "id": 4,
+        "name": "Ronaldo",
+        "comment": "These are great but not much better then gen1. Only addition is Siri feature. I will rather buy the previous model on discount and Save some green.",
+        "img": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+        "id": 5,
+        "name": "Messi",
+        "comment": "These are great but not much better then gen1. Only addition is Siri feature. I will rather buy the previous model on discount and Save some green.",
+        "img": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+        "id": 6,
+        "name": "Rahul",
+        "comment": "These are great but not much better then gen1. Only addition is Siri feature. I will rather buy the previous model on discount and Save some green.",
+        "img": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    }
+]
